@@ -9,8 +9,9 @@
 
 本博客大部分的文章用markdown所写，所有源文件可从[hellossd@github](https://github.com/hellossd/blog)中获得。
 
+我的Email(**`#`换成`@`**):
 <table>
     <tr>
-	<td>Email:</td><td>hellossd**#**hotmail.com(`#`换成`@`)</td>
+	<td>hellossd#hotmail.com</td>
     </tr>
 </table>
