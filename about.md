@@ -7,6 +7,8 @@
 
 所以创建了这个网站，记录和学习SSD相关的知识。
 
+本博客大部分的文章用markdown所写，所有源文件可从[hellossd@github](github.com/hellossd)中获得。
+
 <table>
     <tr>
 	<td>Email:</td><td>hellossd**#**hotmail.com(`#`换成`@`)</td>
