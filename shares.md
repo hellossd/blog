@@ -28,7 +28,7 @@
 |编号|网址链接|说明   |
 |----|-------|-------|
 |1   |[codecapsule][codecapsule]|讲述了SSD相关的一些基础知识，还有一基于键值对的数据库。有部分文章的中文版本可从[这里][blog_xiongduo]找到。|
-|2   |[flashmemorysummit][flashmemorysummit]|讲述闪存和SSD的最新玩法，[我的百度云盘][mybaiduyun]里部分文档的打包下载|
+|2   |[flashmemorysummit][flashmemorysummit]|讲述闪存和SSD的最新玩法，[我的百度云盘][mybaiduyun]里部分文档的打包下载。 我也重做了一个Proceedings_2015_all文件夹内文档的导航页`index2015.html`。|
 
 [codecapsule]:http://codecapsule.com/
 [blog_xiongduo]:http://blog.xiongduo.cn/
