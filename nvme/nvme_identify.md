@@ -30,9 +30,9 @@ NVMe协议Identify详解
 
 |[字节] |O/M|缩写|解释|
 |:------|---|----|:---|
-|[01:00]|M|<h4 id="id_vid">PCI Vendor ID</h4><br>设备厂商ID，此ID由PCI SIG组织分配|
-|[03:02]|M|SSVID|<h4 id="id_ssvid">PCI Subsystem Vendor ID</h4><br>ID由PCI SIG组织分配|
-|[23:04]|M|SN|<h4 id="id_sn">Serail Number</h4><br>序列号，由厂商定义的ASCII码字符串|
+|[01:00]|M|<h4 id="id_vid">VID</h4><br>|PCI Vendor ID设备厂商ID，此ID由PCI SIG组织分配|
+|[03:02]|M|<h4 id="id_ssvid">SSVID</h4>|PCI Subsystem Vendor ID<br>ID由PCI SIG组织分配|
+|[23:04]|M|<h4 id="id_sn">SN</h4><br>|Serail Number<br>序列号，由厂商定义的ASCII码字符串|
 |[63:24]|M|MN|Model Number<br>型号。由厂商定义的ASCII码字符串|
 |[71:64]|M|FR|Firmware Revision<br>固件版本号。当前使用的固件版本号（ASCII码字符串）|
 |[72]|M|RAB|Recommended Arbitration Burst<br>推荐的突发仲裁长度,即控制器每次从SQ队列中取出最大命令个数|
