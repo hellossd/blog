@@ -21,7 +21,7 @@
 |编号   |我的书目|说明   |
 |:-----:|:-------:|:-------|
 |1      |`Inside Solid State Drives (SSDs)`|一本专门讲述SSD内部工作原理的书箱。 内容包括市场分析， 架构， 接口， NAND技术和设计， 可靠性， 损耗均衡算法， 纠错码， 闪存信号处理等大部分内容。 但缺少对FTL的详细描述。 更多信息可参考http://www.springer.com/series/4076 。 在[我的百度云盘][mybaiduyun]里有这本书的完整版本（因版权问题可能会随时删除）|
-
+|2|`Inside NAND Flash Memories`|大而全，闪存的原理和应用。[下载][mybaiduyun]|
 
 <h2 id="urls">链接资源</h2>
 
