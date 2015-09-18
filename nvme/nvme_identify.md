@@ -23,13 +23,17 @@ NVMe协议Identify详解
 <h3 id="dev_id">Identify Controller Data Structure</h3>
 
 
+*[VID]:  PCI Vendor ID
+*[SSVID]: PCI Subsystem Vendor ID
+*[SN]: Serial Number
+
 *   [VID](#id_vid)
 *   [SSVID](#id_ssvid)
 *   [SN](#id_sn)
 
 
 |[字节] |O/M|缩写|解释|
-|:------|---|----|:---|
+|:----:|:--:|:---:|:---|
 |[01:00]|M|<h4 id="id_vid">VID</h4><br>|PCI Vendor ID设备厂商ID，此ID由PCI SIG组织分配|
 |[03:02]|M|<h4 id="id_ssvid">SSVID</h4>|PCI Subsystem Vendor ID<br>ID由PCI SIG组织分配|
 |[23:04]|M|<h4 id="id_sn">SN</h4><br>|Serail Number<br>序列号，由厂商定义的ASCII码字符串|
