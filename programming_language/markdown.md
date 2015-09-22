@@ -806,9 +806,9 @@ Markdown 支持在下面这些符号前面加上反斜杠来帮助插入普通�
     .   英文句号
     !   惊叹号
 
-<h1 id="extra">Markdown扩展</h2>
+<h2 id="extra">Markdown扩展</h2>
 
-<h2 id="inline-html">Markdown内嵌HTML</h2>
+<h3 id="inline-html">Markdown内嵌HTML</h3>
 
 基本的Markdown语法中，你可以在文档中插入HTML，但其有一个限制，如使用`<div>` `<table>` `<pre>` `<p>`等块级元素里，要使用空行与Markdown文档分隔，开始与结束标签不能由制表符或空格缩进。
 
@@ -822,14 +822,14 @@ Markdown Extra则允许：
 
 Markdown Extra可以在HTML中内嵌Markdown句，基本Markdown语法中，HTML标签之内的内容并不能使用Markdown语法，但在PHP Markdown Extra中，给HTML标签加上一个值为1的markdown属性后，就可以在任何块级标签中使用Markdown语法了，例如：
 
-    <div markdown="1"> This is *true* markdown text. </div> 
+    <div markdown="1"> This is *true* markdown text. </div>
 
 生成：
 
     <div> <p>This is <em>true</em> markdown text.</p> </div>
- 
+
  试试效果：
-<div markdown="1"> This is *true* markdown text. </div> 
+<div markdown="1"> This is *true* markdown text. </div>
 
 ------
 
@@ -842,7 +842,7 @@ PHP Markdown Extra的内嵌Markdown只会应用于块级元素的下一级元素
 
 表格的单元格既可以包含内联元素，也可以包含块元素，要让Markdown语法作用于内联元素与块元素，可以使用属性`markdown="block"`。
 
-<h2 id="special-attribute">特殊属性</h2>
+<h3 id="special-attribute">特殊属性</h3>
 
 使用PHP Markdown Extra你可以为块元素设置id和class属性。看例子：
 
@@ -858,7 +858,7 @@ PHP Markdown Extra的内嵌Markdown只会应用于块级元素的下一级元素
 	<h1 id="header1">Header 1</h1>
 	<h2 class="header2">Header 2</h2>
 
-	
+
 又如：
 
 	## The Site {.main .shine #the-site}
@@ -866,7 +866,7 @@ PHP Markdown Extra的内嵌Markdown只会应用于块级元素的下一级元素
 生成：
 
 	<h2 class="main shine" id="the-site">The Site</h2>
-	
+
 特殊属性可以应用于：
 
 * 标题
@@ -945,7 +945,7 @@ PHP Markdown Extra可以制作简单的表格，如：
     <tr>
       <th>First Header</th>
       <th>Second Header</th>
-    </tr>    
+    </tr>
     </thead>
     <tbody>
     <tr>
@@ -1006,12 +1006,12 @@ PHP Markdown Extra可以制作简单的表格，如：
 | `help()`      | Display the help window.       |
 | `destroy()`   | **Destroy your computer!**     |
 
-<h2 id="defination-lists">定义列表</h2>
+<h3 id="defination-lists">定义列表</h3>
 
 PHP Markdown Extra 也可以生成定义列表，定义描述以一个冒号开始，两个定义项之间要用一个以上空行分开。如：
 
     Apple
-    :   Pomaceous fruit of plants of the genus Malus in 
+    :   Pomaceous fruit of plants of the genus Malus in
         the family Rosaceae.
     
     Orange
